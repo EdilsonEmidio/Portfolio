@@ -6,10 +6,14 @@ function App() {
 
 	
 	return (
-		<div className='bg-neutral-900 py-5 text-white pt-10
-			sm:grid sm:grid-cols-1
-			md:flex md:justify-evenly
+		<div className='bg-neutral-900 text-white
+			grid 
+			sm:flex
+			grid-cols-1
 			h-screen
+			gap-5
+			py-5
+         justify-center
 			'>
 			<Perfil />
 			<Conteudo />
