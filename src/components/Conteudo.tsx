@@ -9,10 +9,10 @@ export default function Conteudo() {
 
    return (
       <div className='bg-neutral-800 p-10 rounded-lg relative
-         border border-neutral-500 mr-5 ml-5 sm:ml-0 w-1/2'>
+         border border-neutral-500 mr-5 ml-5 sm:ml-0 '>
 
          <Menu conteudo={setConteudo}/>
-         <div className='flex justify-between items-center mb-5'>
+         <div className='flex justify-between items-center mb-5 mt-5 lg:mt-0'>
             <h1 className='text-3xl font-bold'>{conteudo ? "Sobre mim" : "Projetos"}</h1>
          </div>
          {

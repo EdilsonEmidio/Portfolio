@@ -15,7 +15,7 @@ export default function Projetos() {
             </li>
             <br />
             <li>
-               <strong>Sistema de recomendação:</strong> 
+               <strong>Sistema de recomendação: </strong> 
                Algoritmo em python, para recomendar jogos baseado no tipo de perfil de usuario seguindo varios critérios como gênero, plataforma, avaliações e preço, integrado à API da steam.
             </li>
          </ul>

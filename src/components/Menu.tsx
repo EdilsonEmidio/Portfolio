@@ -10,16 +10,16 @@ export default function Menu({conteudo}:conteudoProps) {
 
    const divClassName1 =
        `text-neutral-400 hover:text-white hover:bg-neutral-400 py-2 px-4
-      cursor-pointer rounded-lg
+      cursor-pointer rounded-lg flex-1 text-center whitespace-nowrap
       ${flag ? "bg-neutral-500 text-white" : ""}`
 
       const divClassName2 =
        `text-neutral-400 hover:text-white hover:bg-neutral-400 py-2 px-4
-      cursor-pointer rounded-lg
+      cursor-pointer rounded-lg flex-1 text-center whitespace-nowrap
       ${flag ? "" : "bg-neutral-500 text-white"}`
 
    return (
-      <ul className='inline-flex bg-neutral-700 rounded-lg absolute right-0 top-0 text-xl font-bold border border-neutral-500'>
+      <ul className='flex bg-neutral-700 rounded-lg absolute right-0 top-0 text-xl font-bold border border-neutral-500 w-full md:w-max'>
 
          <li className={divClassName1} 
             onClick={()=>{conteudo(true),setFlag(true)}}>

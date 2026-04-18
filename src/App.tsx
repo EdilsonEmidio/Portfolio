@@ -10,11 +10,11 @@ function App() {
 			grid 
 			sm:flex
 			grid-cols-1
-			h-screen
+         min-h-screen
+			max-h-max
 			gap-5
 			py-5
-         justify-center
-			'>
+         justify-center'>
 			<Perfil />
 			<Conteudo />
 		</div>

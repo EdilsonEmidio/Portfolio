@@ -8,7 +8,7 @@ export default function Perfil() {
    const [expandido, setExpandido] = useState(false);
 
 	return (
-		<div className='bg-neutral-800 p-10 rounded-lg border border-neutral-500
+		<div className='bg-neutral-800 p-5 md:p-10 rounded-lg border border-neutral-500
 			ml-5 mr-5 sm:mr-0'>
 			<div className='flex sm:block pb-5 border-b border-neutral-500 		sm:border-0 justify-around sm:justify-normal'>
 				<div className='xs: flex justify-center md:border-b md:border-neutral-500 pb-5'>
@@ -30,7 +30,7 @@ export default function Perfil() {
                   }
                
 				</div>
-				<div className='text-center mt-3 flex flex-col justify-center items-center'>
+				<div className='text-center mt-3 flex flex-col justify-center items-center md:ml-0 ml-3'>
 					<h1 className='text-xl font-bold mb-3'>Edilson Emidio</h1>
 					<h2 className='bg-emerald-700 rounded-xl inline px-5 py-1'>Desenvolvedor Fullstack</h2>
 				</div>
